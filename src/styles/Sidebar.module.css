@@ -1,0 +1,33 @@
+.top {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon > p {
+  color: rgb(168, 161, 161);
+}
+.container {
+  background-color: #000;
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+  overflow-x: hidden;
+  width: 250px;
+}
+.icon > p:hover{
+  color: #eee;
+}
+.link{
+  text-decoration: none;
+  color: gray;
+}
+.link:hover{
+  color: #eee;
+}
